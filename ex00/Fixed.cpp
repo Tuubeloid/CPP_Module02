@@ -6,11 +6,13 @@
 /*   By: tvalimak <tvalimak@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/01 00:54:54 by tvalimak          #+#    #+#             */
-/*   Updated: 2024/10/01 00:55:44 by tvalimak         ###   ########.fr       */
+/*   Updated: 2024/10/02 21:17:46 by tvalimak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+
 #include "Fixed.hpp"
+
 Fixed::Fixed() : _value(0)
 {
     std::cout << "Default constructor called" << std::endl;
